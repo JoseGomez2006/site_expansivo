@@ -9,6 +9,9 @@
         width: 24px;
         height: 24px;
         background-image: url("../img/menu.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
     }
     
     .container {
@@ -20,6 +23,12 @@
     display: none;
     }
     
+  .display-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+  }
+
     @media screen and (min-width: 1024px) {
     .cabecalho-titulo {
     display: flex;
